@@ -12,3 +12,10 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello Soldier. GitHub Actions is LIVE."
+        
+  hello-job-1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print greeting
+        run: echo "Another job showing."
