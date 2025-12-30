@@ -7,7 +7,7 @@ on:
 
 jobs:
   hello-job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntuu-latest
 
     steps:
       - name: Print greeting
