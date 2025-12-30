@@ -1,0 +1,14 @@
+name: Day 1 - Hello Soldier
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print greeting
+        run: echo "Hello Soldier. GitHub Actions is LIVE."
